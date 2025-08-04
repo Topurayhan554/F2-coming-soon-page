@@ -1,0 +1,24 @@
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .container .content {
+    text-align: center;
+  }
+  .container .content .title {
+    font-size: 35px;
+  }
+  .container .content p {
+    font-size: 14px;
+  }
+  .container .content .count-down {
+    gap: 5px;
+  }
+  .container .content .count-down .box h3 {
+    font-size: 30px;
+  }
+  .container .content .count-down .box span {
+    font-size: 19px;
+  }
+}
